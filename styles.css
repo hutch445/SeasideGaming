@@ -7,15 +7,15 @@
 }
 /* TopNav */
 .topnav{
-    background-color: blue;
+    background-color: black;
     overflow: hidden;
-    box-shadow: 0px 2px 5px sandybrown;
+    box-shadow: 0px 2px 5px white;
     border-radius: 25px;
     transition: 0s background-color;
 }
 .topnav a{
-    float: left;
-    color: sandybrown;
+    float: right;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -28,7 +28,19 @@
     transition: all .2s ease-in
 }
 .topnav a:hover{
-    background-color: sandybrown;
+    background-color: white;
     color: black;
+    border-radius: 25px;
     /* transition: background-color .2s ease-in; */
 }
+.topnav ul {
+    list-style: none;
+    text-align: center;
+}
+.topnav ul li {
+    display: inline-block;
+}
+
+body{background-color: black}
+h1{color: white;}
+p{color: white}
